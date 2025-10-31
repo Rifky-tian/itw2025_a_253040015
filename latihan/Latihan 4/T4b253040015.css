@@ -1,0 +1,98 @@
+body {
+    font: 16px/30px;
+    font-family: open sans,sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/News.jpg);
+    background-size: contain;
+    color: #333;
+    background-position: center;
+}
+.container {
+    width: 800px;
+    margin: auto;
+    color: #333;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+.header ul li {
+    display:inline-block;
+    margin-top:7px;
+    margin-right:10px;
+
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: grey;
+    color: red;
+}   
+
+.hero {
+    height: 250px;
+    background-image: url(img/Del\ Piero.jpg);
+    background-size: bolder;
+    background-position: 0 -150px;
+    border-bottom: 5px solid red;
+    border-top: grey;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+#a2:hover {
+   background-color: grey;
+   color: red;
+}
+#p1 {
+    color: rgb(109, 24, 207);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#a3 {
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
