@@ -82,8 +82,16 @@ body {
     font-weight: bold;
 }
 
-#a3 {
+#p3 {
     color: white;
+}
+
+#a3 {
+    color: ;
+}
+
+#a4 {
+    color: black;
 }
 
 .footer {
@@ -95,4 +103,8 @@ body {
     color: #eaeaea;
     text-align: center;
     font-size: 12px;
+}
+.hero #he1 {
+    background-image: url(img/ADP.jpg);
+    height: 100px;
 }
