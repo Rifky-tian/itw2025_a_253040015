@@ -1,0 +1,35 @@
+/* Font */
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(../assets/fonts/BebasNeue-Regular.woff) format('woff');
+}
+
+/* Style Utama*/
+body {
+    font: 18px/36px 'BebasNeue', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ddd;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 50px 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px pink;
+}
+
+.container {
+    width: 600px;
+    background-color: grey;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.gallery li {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #666;
+}
